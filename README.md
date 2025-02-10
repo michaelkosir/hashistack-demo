@@ -22,6 +22,7 @@ This repository provides a demo of HashiCorp Terraform, Vault, Consul, and Bound
 - Secure Communication
   - Deploy external Consul cluster with Terraform
   - Deploy Consul clients on K8s
+    - Consumption (SVC1 -> SVC2 + mTLS)
 
 - Secure Remote Access
   - Deploy Boundary with Terraform
