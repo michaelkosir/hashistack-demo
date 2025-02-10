@@ -38,5 +38,5 @@ This repository provides a demo of HashiCorp Terraform, Vault, Consul, and Bound
 ## Diagram
 
 <p align="center">
-  <img src="./img/img.png">
+  <img src="./img/image.png">
 </p>
