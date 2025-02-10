@@ -1,7 +1,7 @@
 # hashistack-demo
 This repository provides a demo of HashiCorp Terraform, Vault, Consul, and Boundary.
 
-## Rough Outline
+## Outline
 
 - Baseline
   - Deploy K8s/RDS with Terraform
@@ -32,3 +32,9 @@ This repository provides a demo of HashiCorp Terraform, Vault, Consul, and Bound
     - Consumption (secure postgres access)
   - Configure Vault/Boundary/VM
     - Consumption (secure ssh access)
+
+## Diagram
+
+<p align="center">
+  <img src="./img/img.png">
+</p>
