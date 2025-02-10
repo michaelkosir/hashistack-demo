@@ -11,11 +11,13 @@ This repository provides a demo of HashiCorp Terraform, Vault, Consul, and Bound
 - Secure Secrets
   - Setup HCP Vault
     - Kubernetes auth method
-    - KVV2 engine engine
-    - Database secrets engine
   - Deploy Vault Secrets Operator on K8s
-    - Consumption (HelloWorld + StaticSecret)
-    - Consumption (HelloWorld + DynamicSecret)
+    - Static Secrets
+      - KVV2 secrets engine
+      - Consumption (HelloWorld + VaultStaticSecret)
+    - Dynamic Secrets
+      - Database secrets engine
+      - Consumption (HelloWorld + VaultDynamicSecret)
   - Deploy Vault Agent Injector on K8s
     - Consumption (HelloWorld + Vault Agent/Proxy)
 
